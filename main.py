@@ -16,7 +16,7 @@ def cadastrar_alunos():
     else:
       alunos.append(aluno)
 
-    continuar = input("Cadastrar novo aluno? (Sim/Não)")
+    continuar = input("aCadastrar novo aluno? (Sim/Não)")
     if continuar.lower() not in ["sim","si","s",]:
       break
 
